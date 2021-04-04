@@ -2,5 +2,9 @@
   "extends": [
     "oclif",
     "oclif-typescript"
-  ]
+  ],
+  "rules": {
+    "operator-linebreak": ["warn", "before"],
+    "quotes": ["warn", "double"]
+  }
 }
