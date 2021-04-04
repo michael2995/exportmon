@@ -19,7 +19,7 @@ $ npm install -g exportmon
 $ exportmon COMMAND
 running command...
 $ exportmon (-v|--version|version)
-exportmon/0.0.0 darwin-x64 node-v14.15.5
+exportmon/0.0.1 darwin-x64 node-v14.15.5
 $ exportmon --help [COMMAND]
 USAGE
   $ exportmon COMMAND
