@@ -41,7 +41,7 @@ const forceIndexAsExportVault = (sourceFiles: SourceFile[]) => {
 
 export const forceExportFor = (dirpath: string) => {
   // eslint-disable-next-line no-console
-  console.log(chalk.blue(`[watchmon] watching ${chalk.yellow(dirpath)}`))
+  console.log(chalk.blue(`[exportmon] ${chalk.yellow(`watching ${dirpath}`)}`))
   chokidar.watch(dirpath).on("change", child => {
     if (fs.lstatSync(child).isDirectory()) return
     if (child.match("index.ts")) return
